@@ -45,7 +45,7 @@ Ensure you have the following installed:
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Sania-hasann/Cheating-Surveillance-System.git
+   https://github.com/DISHASONI99/Cheating-Surveillance-System.git
    cd Cheating-Surveillance-System
    ```
 2. Install dependencies:
@@ -61,6 +61,13 @@ Ensure you have the following installed:
    - You have trained your YOLO model on the [Roboflow Cellphone Dataset](https://universe.roboflow.com/d1156414/cellphone-0aodn).  
    - Download the trained YOLO weights and place the weights file in the `models/` directory.
 
+5. If getting error :-
+   - py -3.11 -m venv virtualEnv(creates a virtual environment)
+   - virtualEnv\Scripts\Activate (activates the virtual environment)
+   -  pip install -r requirements.txt
+
+
+
 ## Usage
 ### Running the Surveillance System
 To start real-time monitoring, run:
@@ -74,23 +81,13 @@ python main.py
 3. **Cheating Behavior Analysis**: Flags abnormal behavior such as frequent head turning or gaze shifts.
 
 ## Demo Videos
-- **[Gaze Detection](https://github.com/Sania-hasann/Cheating-Surveillance-System/blob/main/Demo_vid/gaze_detection.mp4)**
-- **[Head Movement Detection](https://github.com/Sania-hasann/Cheating-Surveillance-System/blob/main/Demo_vid/headpose_detection.mp4)**
-- **[Mobile Phone Detection](https://github.com/Sania-hasann/Cheating-Surveillance-System/blob/main/Demo_vid/Mobile-detection.mp4)**
+- **[Gaze Detection](https://github.com/DISHASONI99/Cheating-Surveillance-System/blob/main/Demo_vid/Mobile-detection.mp4)**
+- **[Head Movement Detection](https://github.com/DISHASONI99/Cheating-Surveillance-System/blob/main/Demo_vid/gaze-detection.mp4)**
+- **[Mobile Phone Detection](https://github.com/DISHASONI99/Cheating-Surveillance-System/blob/main/Demo_vid/headpose-detection.mp4)**
 
 ## Dataset
 The mobile phone detection model is trained on the **Roboflow Cellphone Detection Dataset**. You can access it here: [Roboflow Cellphone Dataset](https://universe.roboflow.com/d1156414/cellphone-0aodn).
 
-## Contributing
-Feel free to submit issues and pull requests! If you have improvements or additional features, contribute by following these steps:
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-branch`
-3. Commit your changes: `git commit -m "Add new feature"`
-4. Push to the branch: `git push origin feature-branch`
-5. Open a Pull Request.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 - [dlib](http://dlib.net/)
